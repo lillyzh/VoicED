@@ -19,6 +19,10 @@
 		B5A74CA021B0F458001526F2 /* MainPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A74C9F21B0F458001526F2 /* MainPageController.swift */; };
 		B5A74CA621B11F17001526F2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A74CA521B11F17001526F2 /* TabBarController.swift */; };
 		B5A74CA821B12071001526F2 /* HomePageNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A74CA721B12071001526F2 /* HomePageNavController.swift */; };
+		B5A74CAC21B14799001526F2 /* schedulingCallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A74CAB21B14799001526F2 /* schedulingCallController.swift */; };
+		B5A74CAE21B18453001526F2 /* PhoneCallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A74CAD21B18453001526F2 /* PhoneCallController.swift */; };
+		B5A74CB021B18D9B001526F2 /* FlashcardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A74CAF21B18D9B001526F2 /* FlashcardViewController.swift */; };
+		B5A74CB221B18DAE001526F2 /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A74CB121B18DAE001526F2 /* CreationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		B5A74C9F21B0F458001526F2 /* MainPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageController.swift; sourceTree = "<group>"; };
 		B5A74CA521B11F17001526F2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		B5A74CA721B12071001526F2 /* HomePageNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageNavController.swift; sourceTree = "<group>"; };
+		B5A74CAB21B14799001526F2 /* schedulingCallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = schedulingCallController.swift; sourceTree = "<group>"; };
+		B5A74CAD21B18453001526F2 /* PhoneCallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneCallController.swift; sourceTree = "<group>"; };
+		B5A74CAF21B18D9B001526F2 /* FlashcardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardViewController.swift; sourceTree = "<group>"; };
+		B5A74CB121B18DAE001526F2 /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +115,15 @@
 		B5A74C6C21B0E79B001526F2 /* VoicED */ = {
 			isa = PBXGroup;
 			children = (
+				B5A74CAB21B14799001526F2 /* schedulingCallController.swift */,
 				B5A74C9D21B0EDBA001526F2 /* LangToLearnViewController.swift */,
 				B5A74C9F21B0F458001526F2 /* MainPageController.swift */,
 				B5A74C6D21B0E79B001526F2 /* AppDelegate.swift */,
 				B5A74C6F21B0E79B001526F2 /* ViewController.swift */,
 				B5A74C7121B0E79B001526F2 /* Main.storyboard */,
+				B5A74CAF21B18D9B001526F2 /* FlashcardViewController.swift */,
+				B5A74CB121B18DAE001526F2 /* CreationViewController.swift */,
+				B5A74CAD21B18453001526F2 /* PhoneCallController.swift */,
 				B5A74CA721B12071001526F2 /* HomePageNavController.swift */,
 				B5A74CA521B11F17001526F2 /* TabBarController.swift */,
 				B5A74C9B21B0EA27001526F2 /* NativeLangViewController.swift */,
@@ -277,7 +289,11 @@
 				B5A74CA621B11F17001526F2 /* TabBarController.swift in Sources */,
 				B5A74C7021B0E79B001526F2 /* ViewController.swift in Sources */,
 				B5A74C9C21B0EA27001526F2 /* NativeLangViewController.swift in Sources */,
+				B5A74CB221B18DAE001526F2 /* CreationViewController.swift in Sources */,
+				B5A74CAE21B18453001526F2 /* PhoneCallController.swift in Sources */,
+				B5A74CB021B18D9B001526F2 /* FlashcardViewController.swift in Sources */,
 				B5A74C6E21B0E79B001526F2 /* AppDelegate.swift in Sources */,
+				B5A74CAC21B14799001526F2 /* schedulingCallController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
