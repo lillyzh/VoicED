@@ -14,6 +14,11 @@
 		B5A74C7821B0E79D001526F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5A74C7621B0E79D001526F2 /* LaunchScreen.storyboard */; };
 		B5A74C8321B0E79D001526F2 /* VoicEDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A74C8221B0E79D001526F2 /* VoicEDTests.swift */; };
 		B5A74C8E21B0E79D001526F2 /* VoicEDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A74C8D21B0E79D001526F2 /* VoicEDUITests.swift */; };
+		B5A74C9C21B0EA27001526F2 /* NativeLangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A74C9B21B0EA27001526F2 /* NativeLangViewController.swift */; };
+		B5A74C9E21B0EDBA001526F2 /* LangToLearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A74C9D21B0EDBA001526F2 /* LangToLearnViewController.swift */; };
+		B5A74CA021B0F458001526F2 /* MainPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A74C9F21B0F458001526F2 /* MainPageController.swift */; };
+		B5A74CA621B11F17001526F2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A74CA521B11F17001526F2 /* TabBarController.swift */; };
+		B5A74CA821B12071001526F2 /* HomePageNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A74CA721B12071001526F2 /* HomePageNavController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		B5A74C8921B0E79D001526F2 /* VoicEDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoicEDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5A74C8D21B0E79D001526F2 /* VoicEDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicEDUITests.swift; sourceTree = "<group>"; };
 		B5A74C8F21B0E79D001526F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A74C9B21B0EA27001526F2 /* NativeLangViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeLangViewController.swift; sourceTree = "<group>"; };
+		B5A74C9D21B0EDBA001526F2 /* LangToLearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LangToLearnViewController.swift; sourceTree = "<group>"; };
+		B5A74C9F21B0F458001526F2 /* MainPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageController.swift; sourceTree = "<group>"; };
+		B5A74CA521B11F17001526F2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B5A74CA721B12071001526F2 /* HomePageNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageNavController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +107,14 @@
 		B5A74C6C21B0E79B001526F2 /* VoicED */ = {
 			isa = PBXGroup;
 			children = (
+				B5A74C9D21B0EDBA001526F2 /* LangToLearnViewController.swift */,
+				B5A74C9F21B0F458001526F2 /* MainPageController.swift */,
 				B5A74C6D21B0E79B001526F2 /* AppDelegate.swift */,
 				B5A74C6F21B0E79B001526F2 /* ViewController.swift */,
 				B5A74C7121B0E79B001526F2 /* Main.storyboard */,
+				B5A74CA721B12071001526F2 /* HomePageNavController.swift */,
+				B5A74CA521B11F17001526F2 /* TabBarController.swift */,
+				B5A74C9B21B0EA27001526F2 /* NativeLangViewController.swift */,
 				B5A74C7421B0E79D001526F2 /* Assets.xcassets */,
 				B5A74C7621B0E79D001526F2 /* LaunchScreen.storyboard */,
 				B5A74C7921B0E79D001526F2 /* Info.plist */,
@@ -256,7 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5A74CA021B0F458001526F2 /* MainPageController.swift in Sources */,
+				B5A74C9E21B0EDBA001526F2 /* LangToLearnViewController.swift in Sources */,
+				B5A74CA821B12071001526F2 /* HomePageNavController.swift in Sources */,
+				B5A74CA621B11F17001526F2 /* TabBarController.swift in Sources */,
 				B5A74C7021B0E79B001526F2 /* ViewController.swift in Sources */,
+				B5A74C9C21B0EA27001526F2 /* NativeLangViewController.swift in Sources */,
 				B5A74C6E21B0E79B001526F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
