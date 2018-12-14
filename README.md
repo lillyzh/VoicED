@@ -5,7 +5,7 @@ Formal language learning focuses on the reading and writing element and hence la
 ### App Description
 A language learning mobile application that helps users learn a new language through voice interaction with robots
 
-### Link to our app development process
+### Link to Our App Development Process
 http://web.stanford.edu/class/cs147/projects/Voice/VoiceED/
 
 ### App Walk-though
